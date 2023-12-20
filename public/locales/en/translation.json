@@ -1,0 +1,20 @@
+{   
+    "texte":{
+        "bienvenue" : "Welcome to ANY BANK",
+        "langue":{
+            "francais": "French",
+            "anglais": "English"
+        },
+        "copyright": "ANY BANK © 2023 ALL RIGHTS RESERVED",
+        "mode-claire": "Swirch to light mode",
+        "mode-sombre": "Switch to dark mode"
+    },
+    "page":{
+        "home":{
+            "header":{
+                "link1":"Home"
+            }
+        }
+     }
+  
+}

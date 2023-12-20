@@ -1,0 +1,23 @@
+{
+    "texte":{
+        "bienvenue" : "Bienvenu dans ANY BANK",
+        "langue":{
+            "francais": "Français",
+            "anglais": "Anglais"
+        },
+         
+        "copyright": "ANY BANK © 2023 TOUS DROITS RESERVES",
+        "mode-claire": "Passer en mode claire",
+        "mode-sombre": "Passer en mode Sombre",
+        "connexion_possible": "Vous pouvez vous connecter"
+    },
+     "page":{
+        "home":{
+            "header":{
+                "link1":"Home"
+            }
+        }
+     }
+   
+    
+}
