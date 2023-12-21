@@ -5,6 +5,9 @@ const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
+
+
+
 //SEO Related settings npm install @mui/material @mui/styled-engine-sc styled-components
 const seo = {
   title: "IDRISSE AFOWA Portfolio",
