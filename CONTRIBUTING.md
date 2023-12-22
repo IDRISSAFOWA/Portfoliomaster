@@ -47,7 +47,6 @@ Here are some fun and precise steps to get you started:
       ```
       git commit -m "Added Gatsby migration and podcast section"
       ```
-
 11. **Push Your Changes** 🚢
     - Push your changes to your fork on GitHub:
       ```

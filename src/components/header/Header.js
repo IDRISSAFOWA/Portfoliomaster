@@ -22,7 +22,7 @@ class Header extends Component {
 
     return (
       <Fade top duration={1000} distance="20px">
-        {/* <SeoHeader /> */}
+       
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
@@ -85,18 +85,7 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/opensource"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Open Source
-                </NavLink>
-              </li>
+ 
               <li>
                 <NavLink
                   to="/contact"
@@ -109,17 +98,9 @@ class Header extends Component {
                   Contact Me
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="#"
-                  // tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                // onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                // onMouseOut={(event) => onMouseOut(event)}
-                >
-                  <DarkModeToggle />
-                </NavLink>
+              <li >
+                <DarkModeToggle />
+
               </li>
             </ul>
 

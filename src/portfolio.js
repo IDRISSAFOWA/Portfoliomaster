@@ -28,8 +28,8 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink: "https://drive.google.com/file/d/1GnQdpK4PTmofi2xKccAOepKFCGrdV2VJ/view?usp=drive_link",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository: "https://github.com/IDRISSAFOWA/Portfoliomaster",
+  githubProfile: "https://github.com/IDRISSAFOWA",
 };
 
 const socialMediaLinks = [
