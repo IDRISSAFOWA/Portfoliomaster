@@ -4,10 +4,17 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import French from '../../assests/images/french.png';
 import English from '../../assests/images/english.png';
 import { Box } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 const DarkModeToggle = () => {
     const [alignment, setAlignment] = React.useState('Fr');
     const [alignment1, setAlignment1] = React.useState('L');
+    const {t, i18n} = useTranslation();
+
+    function changeLangi18n(lang) {
+        //alert(lang)
+        i18n.changeLanguage(lang);
+      }
 
     const handleAlignment = (event, newAlignment) => {
         if (newAlignment !== alignment && newAlignment !== null) { setAlignment(newAlignment); }
@@ -26,15 +33,15 @@ const DarkModeToggle = () => {
                 onChange={handleAlignment}
                 aria-label="text alignment"
             >
-                <ToggleButton value="Fr" aria-label="left aligned">
+                <ToggleButton value="Fr"onClick={e=>{changeLangi18n("fr")}} aria-label="left aligned">
                     <img src={French} width={30} />
                 </ToggleButton>
 
-                <ToggleButton value="En" aria-label="centered">
+                <ToggleButton value="En" onClick={e=>{changeLangi18n("en")}} aria-label="centered">
                     <img src={English} width={22} />
                 </ToggleButton>
             </ToggleButtonGroup>
-
+{/* 
             <ToggleButtonGroup value={alignment1} exclusive size='small' onChange={handleAlignment1} aria-label="text alignment" >
                 <ToggleButton value="L" aria-label="left aligned">
                     🌙
@@ -42,7 +49,7 @@ const DarkModeToggle = () => {
                 <ToggleButton value="D" aria-label="centered">
                     🔆
                 </ToggleButton>
-            </ToggleButtonGroup>
+            </ToggleButtonGroup> */}
             
         </Box >
     );

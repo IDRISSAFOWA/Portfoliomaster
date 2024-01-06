@@ -4,29 +4,25 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { greeting } from "../../portfolio.js";
+import i18next from "i18next";
 
-const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
-const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
-
-class Contact extends Component {
+class Contact extends Component { 
   render() {
     const theme = this.props.theme;
+    const t = this.props.trans;
     return (
       <div className="contact-main">
-        <Header theme={theme} />
+        {/* <Header theme={theme} /> */}
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                 loading="lazy"
+                  loading="lazy"
                   src={'https://drive.google.com/uc?export=view&id=1Q5exC-o_8CfvrJkHfLtVeZAla0Uj0eXi'}
                   alt="Your Image"
                 />
@@ -36,20 +32,21 @@ class Contact extends Component {
                   className="contact-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {ContactData["title"]}
+                  {t('contactPageData.contactSection.title')}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {ContactData["description"]}
+                  {t('contactPageData.contactSection.description')}
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                    text=
+                    {t('page.Contact.Tresume')}
                     newTab={true}
-                    href={greeting.resumeLink}
+                    href={i18next.language='fr'?greeting.resumeLink_Fr : i18next.language='en'?greeting.resumeLink_En:''}
                     theme={theme}
                   />
                 </div>
@@ -58,13 +55,11 @@ class Contact extends Component {
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
-          
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-               
                 <AddressImg theme={theme} />
               </div>
               <div className="address-heading-text-div">
@@ -72,31 +67,34 @@ class Contact extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {addressSection["title"]}
+                  {t('contactPageData.addressSection.title')}
+                 
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {addressSection["subtitle"]}
+                  {t('contactPageData.addressSection.subtitle')}
                 </p>
                 <h1
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {phoneSection["title"]}
+                   {t('contactPageData.phoneSection.title')}
+                 
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {phoneSection["subtitle"]}
+                      {t('contactPageData.phoneSection.subtitle')}
+               
                 </p>
                 <div className="address-btn-div">
                   <Button
                     text="Visit on Google Maps"
                     newTab={true}
-                    href={addressSection.location_map_link}
+                    href={t('contactPageData.addressSection.location_map_link')}
                     theme={theme}
                   />
                 </div>

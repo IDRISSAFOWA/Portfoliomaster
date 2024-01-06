@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import { BaseProvider, LightTheme } from "baseui";
 import { Provider as StyletronProvider } from "styletron-react";
@@ -12,13 +12,21 @@ import "./assests/font-awesome/css/all.css";
 
 const engine = new Styletron();
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(
+  document.getElementById('root') 
+);
+// create a darkTheme function to handle dark theme using createTheme
+
+
+root.render(
+  // <Suspense fallback={<LogoLoader />}>
   <StyletronProvider value={engine}>
     <BaseProvider theme={LightTheme}>
+      
       <App />
     </BaseProvider>
-  </StyletronProvider>,
-  document.getElementById("root")
+  </StyletronProvider>
+  // </Suspense>
 );
 
 // If you want your app to work offline and load faster, you can change

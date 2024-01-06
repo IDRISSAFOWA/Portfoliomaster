@@ -1,12 +1,16 @@
 import React from "react";
+import { Fade } from "react-reveal";
+import FeelingProud from "./FeelingProud";
+import { useTranslation } from "react-i18next";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
-import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
+
 
 export default function Greeting(props) {
+  const {t} = useTranslation();
+
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -15,23 +19,25 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
+                {t('greeting.title')}
               </h1>
               {greeting.nickname && (
-                <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                  ( {greeting.nickname} )
+                <h2 
+                // className="greeting-nickname"
+                 style={{ color: theme.text }}>
+                  {t('greeting.nickname')}
                 </h2>
               )}
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                 {t('greeting.subTitle')}
               </p>
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text="⭐ Star Me On Github"
+                  text= {t('greeting.Start')}
                   newTab={true}
                   href={greeting.portfolio_repository}
                   theme={theme}
@@ -45,11 +51,12 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
+           <img
 							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
+							src={"https://drive.google.com/uc?export=view&id=1W07KCNe_tNENH_A5oTTvrFk1-ZGuUFrl"}
+						></img> 
+  
+            {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
       </div>

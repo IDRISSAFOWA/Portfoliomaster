@@ -14,31 +14,30 @@ import { Fade } from "react-reveal";
 class Education extends Component {
   render() {
     const theme = this.props.theme;
+    const t = this.props.trans;
+
     return (
       <div className="education-main">
-        <Header theme={this.props.theme} />
+      
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                {/*<img
-									src={require("../../assests/images/education.svg")}
-									alt=""
-								/> */}
+              
                 <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>
-                  Education
+                  {t('page.Education.title1')}
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Qualification and Certifcations
+                {t('page.Education.title2')}
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>
           </Fade>
-          <Educations theme={this.props.theme} />
+          <Educations trans={t} theme={this.props.theme} />
           {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
           ) : null}

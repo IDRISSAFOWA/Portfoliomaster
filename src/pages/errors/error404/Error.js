@@ -9,14 +9,15 @@ import { Link } from "react-router-dom";
 export default class Error extends Component {
   render() {
     const theme = this.props.theme;
+    const t=this.props.trans;
     return (
       <div className="error-main">
-        <Header theme={this.props.theme} />
+        {/* <Header theme={this.props.theme} /> */}
         <div className="error-class">
           <Fade bottom duration={2000} distance="40px">
-            <h1>Woops</h1>
+            <h1>{t("page.404.title1")}</h1>
             <h1 className="error-404">404</h1>
-            <p>The requested page is unavailable at the moment!</p>
+            <p>{t("page.404.title2")}</p>
             <Link
               className="main-button"
               to="/home"
@@ -27,7 +28,8 @@ export default class Error extends Component {
                 display: "inline-flex",
               }}
             >
-              Go Home
+              {t("page.404.title3")}
+            
             </Link>
           </Fade>
         </div>

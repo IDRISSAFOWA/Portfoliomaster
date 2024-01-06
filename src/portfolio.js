@@ -2,12 +2,10 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
-
-
-
+//--traduit
 //SEO Related settings npm install @mui/material @mui/styled-engine-sc styled-components
 const seo = {
   title: "IDRISSE AFOWA Portfolio",
@@ -20,28 +18,23 @@ const seo = {
   },
 };
 
+//--traduit 
 //Home Page
 const greeting = {
   title: "IDRISSE AFOWA",
-  logo_name: "AshutoshHathidara",
+  logo_name: "Idrisse Afowa",
   nickname: "Devops Engineer C# ASP.NET / REACT JS",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink: "https://drive.google.com/file/d/1GnQdpK4PTmofi2xKccAOepKFCGrdV2VJ/view?usp=drive_link",
+  resumeLink_Fr: "https://drive.google.com/file/d/1GnQdpK4PTmofi2xKccAOepKFCGrdV2VJ/view?usp=drive_link",
+  resumeLink_En:"https://drive.google.com/file/d/1PNawTUyFwBYhSoRIF2jY4ax3jnD62sRT/view?usp=drive_link",
   portfolio_repository: "https://github.com/IDRISSAFOWA/Portfoliomaster",
   githubProfile: "https://github.com/IDRISSAFOWA",
 };
 
+//--non traduit
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/IDRISSAFOWA",
@@ -64,7 +57,7 @@ const socialMediaLinks = [
     name: "Skype",
     link: "https://join.skype.com/invite/FGcfwuSSGjw8",
     fontAwesomeIcon: "fa fa-skype", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=x
+    backgroundColor: "#E1F2FA12", // Reference https://simpleicons.org/?q=x
   } ,
   {
     name: "X-Twitter",
@@ -78,61 +71,11 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-brands fa-whatsapp", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#25D366", // Reference https://simpleicons.org/?q=x
   } 
-  // {
-  //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
 ];
 
+//--traduit
 const skills = {
   data: [
-    // {
-    //   title: "Data Science & AI",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-    //     "⚡ Experience of working with Computer Vision and NLP projects",
-    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Tensorflow",
-    //       fontAwesomeClassname: "logos-tensorflow",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Keras",
-    //       fontAwesomeClassname: "simple-icons:keras",
-    //       style: {
-    //         backgroundColor: "white",
-    //         color: "#D00000",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PyTorch",
-    //       fontAwesomeClassname: "logos-pytorch",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Python",
-    //       fontAwesomeClassname: "ion-logo-python",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //         color: "#3776AB",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Deeplearning",
-    //       imageSrc: "deeplearning_ai_logo.png",
-    //     },
-    //   ],
-    // },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -172,6 +115,13 @@ const skills = {
           },
         },
         {
+          skillName: "Typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#4C70A7",
+          },
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
@@ -180,9 +130,9 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "fa-brands fa-node-js",
           style: {
-            color: "#339933",
+            color: "#326490",
           },
         },
         {
@@ -193,17 +143,10 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
           skillName: "ASP.NET CORE",
-          fontAwesomeClassname: "simple-icons:.NET",
+          fontAwesomeClassname: "simple-icons:dotnet",
           style: {
-            color: "#663399",
+            color: "#160F1D",
           },
         },
         {
@@ -212,10 +155,16 @@ const skills = {
           style: {
             color: "#02569B",
           },
-        },
+        }, 
+        {
+          skillName: "GIT",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#FA8E1A",
+          },
+        }
       ],
     },
-    ,
     {
       title: "Database Manager",
       fileName: "DatabaseManager",
@@ -225,13 +174,7 @@ const skills = {
         "⚡ Deploying deep learning models on cloud to use on mobile devices"
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
+      
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -247,17 +190,10 @@ const skills = {
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "SQL SERVER",
+          fontAwesomeClassname: "simple-icons:microsoftsqlserver",
           style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
+            color: "#C85F39",
           },
         },
         {
@@ -273,14 +209,7 @@ const skills = {
           style: {
             color: "#1488C6",
           },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
+        }
       ],
     },
     {
@@ -292,13 +221,7 @@ const skills = {
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
+       
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -314,176 +237,37 @@ const skills = {
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Canvas ",
+          fontAwesomeClassname: "simple-icons:canva",
           style: {
-            color: "#000000",
+            color: "#115BAF",
           },
-        },
+        }
       ],
-    },
-    // ,
-    // {
-    //   title: "Cloud Infra-Architecture",
-    //   fileName: "CloudInfraImg",
-    //   skills: [
-    //     "⚡ Experience working on multiple cloud platforms",
-    //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
-    //     "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "GCP",
-    //       fontAwesomeClassname: "simple-icons:googlecloud",
-    //       style: {
-    //         color: "#4285F4",
-    //       },
-    //     },
-    //     {
-    //       skillName: "AWS",
-    //       fontAwesomeClassname: "simple-icons:amazonaws",
-    //       style: {
-    //         color: "#FF9900",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Azure",
-    //       fontAwesomeClassname: "simple-icons:microsoftazure",
-    //       style: {
-    //         color: "#0089D6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Firebase",
-    //       fontAwesomeClassname: "simple-icons:firebase",
-    //       style: {
-    //         color: "#FFCA28",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PostgreSQL",
-    //       fontAwesomeClassname: "simple-icons:postgresql",
-    //       style: {
-    //         color: "#336791",
-    //       },
-    //     },
-    //     {
-    //       skillName: "MongoDB",
-    //       fontAwesomeClassname: "simple-icons:mongodb",
-    //       style: {
-    //         color: "#47A248",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Docker",
-    //       fontAwesomeClassname: "simple-icons:docker",
-    //       style: {
-    //         color: "#1488C6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Kubernetes",
-    //       fontAwesomeClassname: "simple-icons:kubernetes",
-    //       style: {
-    //         color: "#326CE5",
-    //       },
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "UI/UX Design",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "⚡ Designing highly attractive user interface for mobile and web applications",
-    //     "⚡ Customizing logo designs and building logos from scratch",
-    //     "⚡ Creating the flow of application functionalities to optimize user experience",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Inkscape",
-    //       fontAwesomeClassname: "simple-icons:inkscape",
-    //       style: {
-    //         color: "#000000",
-    //       },
-    //     },
-    //   ],
-    // },
-  ],
+    }
+  ]
 };
 
 // Education Page
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
+      siteName: "React JS",
+      iconifyClassname: "simple-icons:react",
       style: {
-        color: "#F79F1B",
+        color: "#1BAEF7",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM/",
     },
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
+      siteName: "ANSSI SECURITY",
+      iconifyClassname: "simple-icons:anssi",
       style: {
-        color: "#2EC866",
+        color: "#CA8428",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+      profileLink: "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM/",
+    }
+  
   ],
 };
 
@@ -511,7 +295,6 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, etc.",
         "⚡ Apart from this, I have done courses on Full Stack Development."
-        //"⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
       website_link: "https://www.univ-dschang.org/iutfv-bandjoun/",
     }
@@ -580,35 +363,12 @@ const experience = {
             "Development of the functionalities of an application by providing innovative technical solutions corresponding to the customer's needs.",
           color: "#000000",
         }
-       
-        // {
-        //   title: "Data Science Intern",
-        //   company: "Intel Indexer LLC",
-        //   company_url:
-        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-        //   logo_path: "intel_logo.jpg",
-        //   duration: "Nov 2018 - Dec 2018",
-        //   location: "Work From Home",
-        //   description:
-        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-        //   color: "#0071C5",
-        // },
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
-        // {
-        //   title: "Google Explore ML Facilitator",
-        //   company: "Google",
-        //   company_url: "https://about.google/",
-        //   logo_path: "google_logo.png",
-        //   duration: "June 2019 - April 2020",
-        //   location: "Hyderabad, Telangana",
-        //   description:
-        //     "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-        //   color: "#4285F4",
-        // },
+       
         {
           title: "Microsoft Student Partner",
           company: "Microsoft",
@@ -632,6 +392,7 @@ const projectsHeader = {
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Fullstack projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
+
 
 const publicationsHeader = {
   title: "Publications",
@@ -697,7 +458,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
