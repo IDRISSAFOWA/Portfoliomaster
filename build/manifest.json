@@ -1,0 +1,46 @@
+{
+  "short_name": "masterPortfolio",
+  "name": "masterPortfolio",
+  "icons": [
+  {
+   "src": "\/icons\/logo.jpg",
+   "sizes": "36x36",
+   "type": "image\/jpg",
+   "density": "0.75"
+  },
+  {
+   "src": "\/icons\/logo.jpg",
+   "sizes": "48x48",
+   "type": "image\/jpg",
+   "density": "1.0"
+  },
+  {
+   "src": "\/icons\/logo.jpg",
+   "sizes": "72x72",
+   "type": "image\/jpg",
+   "density": "1.5"
+  },
+  {
+   "src": "\/icons\/logo.jpg",
+   "sizes": "96x96",
+   "type": "image\/jpg",
+   "density": "2.0"
+  },
+  {
+   "src": "\/icons\/logo.jpg",
+   "sizes": "144x144",
+   "type": "image\/jpg",
+   "density": "3.0"
+  },
+  {
+   "src": "\/icons\/logo.jpg",
+   "sizes": "192x192",
+   "type": "image\/jpg",
+   "density": "4.0"
+  }
+ ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,413 @@
+{
+    "texte":{
+        "bienvenue" : "Bienvenu dans ANY BANK",
+        "langue":{
+            "francais": "Français",
+            "anglais": "Anglais"
+        },
+
+        "copyright": "ANY BANK © 2023 TOUS DROITS RESERVES",
+        "mode-claire": "Passer en mode claire",
+        "mode-sombre": "Passer en mode Sombre",
+        "connexion_possible": "Vous pouvez vous connecter"
+    },
+     "page":{
+      "Header":{
+        "LinP1":"Accueil",
+        "LinP2":"Education",
+        "LinP3":"experience",
+        "LinP4":"Projets",
+        "LinP5":" Contactez Moi "
+       
+      },
+      "404":{
+        "title1":"oops",
+        "title2":"La page demandée n'est pas disponible pour le moment!",
+        "title3":"La page demandée n'est pas disponible pour le moment!"
+      },
+      "Footer":{
+        "Made":"Construire avec ",
+        "By":"Par"
+      },
+      "Education":{
+        "title1":"Éducation",
+        "title2":"Qualifications et certifications"
+      },
+      "Contact":{
+        "Tresume":"Consulter Mon CV"
+      }
+     },
+
+    "seo":{
+        "title": "IDRISSE AFOWA Portfolio",
+        "description":
+          " passionner,s'efforcant toujours de travailler sur des produits de bout en bout qui développent des systèmes sociaux et techniques durables et évolutifs pour créer un impact..",
+        "og": {
+          "title": "IDRISSE AFOWA Portfolio",
+          "type": "website",
+          "url": "http://ashutoshhathidara.com/"
+        }
+       },
+
+     "Skils":{
+      "title":"Ce que je fais?"
+     },
+
+    "greeting": {
+        "Start":"⭐ Commencez sur Mon Github",
+        "title": "IDRISSE AFOWA",
+        "logo_name": "AshutoshHathidara",
+        "nickname": "Ingénieur DevOps C# ASP.NET / REACT JS",
+        "subTitle":
+          "Passionner ,s'efforcant toujours de travailler sur des produits de bout en bout qui développent des systèmes sociaux et techniques durables et évolutifs pour créer un impact..",
+        "resumeLink": "https://drive.google.com/file/d/1GnQdpK4PTmofi2xKccAOepKFCGrdV2VJ/view?usp=drive_link",
+        "portfolio_repository": "https://github.com/IDRISSAFOWA/Portfoliomaster",
+        "githubProfile": "https://github.com/IDRISSAFOWA"
+      },
+
+     "skills":{
+        "data": [
+          {
+            "title": "Développement Full Stack",
+            "fileName": "FullStackImg",
+            "skills": [
+              "⚡ Création d'un front-end de site Web réactif à l'aide de React-JS",
+              "⚡ Création de l'API REST du backend d'application dans ASP.NET CORE ",
+              "⚡ Développer des applications mobiles avec Flutter"
+            ]
+          },
+          {
+            "title": "Gestion de base de données et infrastructure cloud  ",
+            "fileName": "DatabaseManager",
+            "skills": [
+              "⚡ Expérience de travail sur plusieurs plateformes cloud",
+              "⚡ Hébergement et maintenance d'applications Web sur des instances de machines virtuelles et LOCALE OU CLOUD ainsi que l'intégration de bases de données"
+            ]
+          },
+          {
+            "title": "UI/UX Design",
+            "fileName": "DesignImg",
+            "skills": [
+              "⚡ Concevoir une interface utilisateur très attractive pour les applications mobiles et Web avec Figma",
+              "⚡ Personnalisation des conceptions de logo et création de logos à partir de zéro à l'aide de Canvas",
+              "⚡ Créer le flux de fonctionnalités de l'application pour optimiser l'expérience utilisateur"
+            ]
+          }
+        ]
+    },
+    
+    
+ "degrees": {
+    "degrees": [
+      {
+        "title": "INSTITUT UNIVERSITAIRE DE TECHNOLOGIE DE DOUALA",
+        "subtitle": "BACHELOR en génie logiciel",
+        "logo_path": "IUT_D.png",
+        "alt_name": "Indiana University Bloomington",
+        "duration": "2021 - 2023",
+        "descriptions": [
+          "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+          "⚡En dehors de cela, j’ai également effectué un travail d’assistant de recherche. Dans ce cadre, j'ai travaillé sur la création de nouveaux algorithmes en Graph ML et Network Science.",
+          "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews."
+        ],
+        "website_link": "https://iut-dla.cm/page/departement/gi.php"
+      },
+      {
+        "title": "INSTITUT UNIVERSITAIRE DE TECHNOLOGIE DE BANDJOUN",
+        "subtitle": "Diplôme Universitaire de Technologie en genie  logiciel (DUT) ",
+        "logo_path": "IUT-FV.jpg",
+        "alt_name": "IIITDM Kurnool",
+        "duration": "2020 - 2022",
+        "descriptions": [
+          "⚡ J'ai étudié des matières de base en génie logiciel comme DS, les algorithmes, DBMS, OS, etc.",
+          "⚡En dehors de cela, j'ai suivi des cours sur le développement Full Stack."
+        ],
+        "website_link": "https://www.univ-dschang.org/iutfv-bandjoun/"
+      }
+    ]
+  },
+   
+ "certifications": {
+    "certifications": [
+      {
+        "title": "React JS",
+        "subtitle": "Dévéloppement web react js",
+        "logo_path": "Great_Learning.jpg",
+        "certificate_link":
+          "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "alt_name": "Great Learning",
+        "color_code": "#8C151599"
+      },
+      {
+        "title": "IT security ",
+        "subtitle": "Sécurité et standardisation des postes de travail",
+        "logo_path": "ANSSI.png",
+        "certificate_link":
+          "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "alt_name": "deeplearning.ai",
+        "color_code": "#00000099"
+      }
+    ]
+  },
+
+   "experience":{
+    "title": "Experience",
+    "subtitle": "Travail, stage et bénévolat",
+    "description":
+      "J'ai travaillé avec des  un ingénieurs. J'ai également travaillé avec des entreprises bien établies, principalement en tant que développeur Full Stack . J'adore organiser des événements et c'est pourquoi je suis également impliqué dans de nombreuses communautés open source en tant que représentant.",
+    "header_image_path": "experience.svg",
+    "sections": [
+      {
+        "title": "Travail",
+        "work": true,
+        "experiences": [
+          {
+            "title": "Développeur full-stack",
+            "company": "MUPECI( MUTUELLE POUR LA PROMOTION DE L'ÉPARGNE ET DU CRÉDIT D'INVESTISSEMENT ) ||INSTITUTION FINANCIÈRE",
+            "company_url": "https://www.mupeci.cm",
+            "logo_path": "LogoMUPECI.jpg",
+            "duration": "Octobre 2022- actuel",
+            "location": "Douala, Cameroun",
+            "description":
+              "Travailler dans le développement de logiciels utilisant différentes technologies. Gestion de projet en gérant le planning afin de remettre les livrables dans les délais fixés. permettre aux opérationnels d’utiliser les outils. Vérifier le bon fonctionnement des programmes, réaliser des tests techniques, analyser les anomalies identifiées et mettre en place des actions correctives.",
+            "color": "#0879bf"
+          }
+        ]
+      },
+      {
+        "title": "Stages",
+        "experiences": [
+          {
+            "title": "Développeur full-stack",
+            "company": "MUPECI",
+            "company_url": "https://www.mupeci.cm",
+            "logo_path": "LogoMUPECI.png",
+            "duration": "Avril 2022 - juin 2022",
+            "location": "Douala, Cameroun",
+            "description":
+              "Développement des fonctionnalités d'une application en apportant des solutions techniques innovantes correspondant aux besoins du client.",
+            "color": "#000000"
+          }
+        ]
+      },
+      {
+        "title": "Bénévolats",
+        "experiences": [
+          {
+            "title": "Partenaire étudiant Microsoft",
+            "company": "Microsoft",
+            "company_url": "https://www.microsoft.com/",
+            "logo_path": "microsoft_logo.png",
+            "duration": "Aug 2019 - May 2020",
+            "location": "DOUALA, BONAMOUSSADI",
+            "description":
+              "Microsoft Student Partner est un programme destiné aux étudiants universitaires visant à sensibiliser et à utiliser les outils Cloud, notamment Azure, dans le développement de leurs projets et startups. Dans le cadre de ce programme, j'ai organisé des ateliers et des séminaires pratiques pour enseigner les concepts du Cloud Computing aux étudiants.",
+            "color": "#D83B01"
+          }
+        ]
+      }
+    ]
+  },
+
+  "projectsHeader":{
+    "title": "Projets",
+    "description":
+      "Mes projets utilisent une grande variété d’outils technologiques les plus récents. Ma meilleure expérience est de créer des projets Fullstack et de les déployer sur des applications Web à l'aide d'une infrastructure cloud.",
+    "avatar_image_path": "projects_image.svg"
+  },
+
+  "projectsData": 
+  {
+    "Data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "masterPortfolio",
+      "createdAt": "2023-12-21T16:26:54Z",
+      "url": "https://github.com/IDRISSAFOWA/Portfoliomaster",
+      "description": "🔥Le modèle complet de portefeuille de développeurs de logiciels personnalisable qui vous permet de présenter votre travail et fournit tous les détails sur vous en tant que développeur de logiciels.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "simple-icons:react"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "projet d'étude de commerce électronique",
+      "createdAt": "2022-01-01T08:31:51Z",
+      "url": "https://github.com/IDRISSAFOWA/ecommerceschoolproject",
+      "description": "♨️ Animation fluide par balayage liquide pour faire la transition entre les différents composants.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "C#",
+          "iconifyClass": "simple-icons:dotnet"
+        }
+      ]
+    }
+    ,{
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "Solution de collecte journaliére dans l'institution financière MUPECI",
+      "createdAt": "2022-01-01T08:31:51Z",
+      "url": "#",
+      "description": "🚀 solution bancaire pour faciliter la mobilisation de l'épargne dans l'établissement",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "bootstrap",
+          "iconifyClass": "simple-icons:bootstrap"
+        }, 
+        {
+          "name": "jquery",
+          "iconifyClass": "simple-icons:jquery"
+        }, 
+        {
+          "name": "PHP",
+          "iconifyClass": "simple-icons:php"
+        }, 
+        {
+          "name": "github",
+          "iconifyClass": "simple-icons:github"
+        },
+        {
+          "name": "Mysql",
+          "iconifyClass": "simple-icons:mysql"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "système de gestion bancaire",
+      "createdAt": "2022-01-01T08:31:51Z",
+      "url": "#",
+      "description": "🚀 ♨️ système bancaire complet avec des fonctionnalités de gestion de Client ,comptes, de prêt et bien d'autres .  ",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "simple-icons:react"
+        }, 
+        {
+          "name": "Typescript",
+          "iconifyClass": "simple-icons:typescript"
+        },
+        {
+          "name": "C#",
+          "iconifyClass": "simple-icons:dotnet"
+        },  
+        {
+          "name": "GIT",
+          "iconifyClass": "simple-icons:git"
+        },
+        {
+          "name": "antdesign",
+          "iconifyClass": "simple-icons:antdesign"
+        },
+        {
+          "name": "mui",
+          "iconifyClass": "simple-icons:mui"
+        },
+        {
+          "name": "azure devops",
+          "iconifyClass": "simple-icons:azuredevops"
+        },
+        {
+          "name": "docker",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "microsoftsqlserver",
+          "iconifyClass": "simple-icons:microsoftsqlserver"
+        }
+      ] 
+    }
+  ]
+  }
+ ,
+
+   "publicationsHeader": {
+    "title": "Publications",
+    "description":
+      "J'ai travaillé et publié quelques articles de recherche et publications personnels.",
+    "avatar_image_path": "projects_image.svg"
+  },
+
+  "contactPageData": {
+    "contactSection": {
+      "title": "Contactez moi",
+      "profile_image_path": "unnamed.jpg",
+      "description":
+        "Je suis disponible sur plusieurs réseaux sociaux. Vous pouvez m'envoyer un message, je vous répondrai dans les 24 heures. Je peux vous aider avec Typescript, React, ASP.NET CORE API et Open Source Development."
+    },
+    "blogSection": {
+      "title": "Blogs",
+      "subtitle":
+        "Pour une autonomisation fondamentale individuelle, j'aime écrire des leçons puissantes qui créent un impact sur chaque lecteur individuellement pour changer le cœur de son caractère.",
+      "link": "https://blogs.ashutoshhathidara.com/",
+      "avatar_image_path": "blogs_image.svg"
+    },
+    "addressSection": {
+      "title": "Address",
+      "subtitle":
+        "DOUALA ,CAMEROUN BONAMOUSSADI",
+      "locality": "Kanodar",
+      "country": "CM",
+      "region": "LITTORAL",
+      "postalCode": "385520",
+      "streetAddress": "Ambavadi vas",
+     "avatar_image_path": "address_image.svg",
+      "location_map_link": "https://goo.gl/maps/MpMqtRZytFchMkZ76"
+    },
+    "phoneSection": {
+      "title": "",
+      "subtitle": ""
+    }
+  }
+
+}
