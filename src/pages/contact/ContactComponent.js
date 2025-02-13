@@ -8,10 +8,11 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting } from "../../portfolio.js";
 import i18next from "i18next";
-// import photo from '../../assests/images/photo_4.png'
 
-class Contact extends Component { 
-  render() {
+class Contact extends Component 
+{ 
+  render() 
+  {
     const theme = this.props.theme;
     const t = this.props.trans;
     return (
@@ -23,8 +24,8 @@ class Contact extends Component {
               <div className="contact-heading-img-div">
                 <img
                   loading="lazy"
-                  // src={photo}
-                  alt="Your Image"
+                  src={require('../../assests/images/photo_4.png')}
+                  // alt="Your Image"
                 />
               </div>
               <div className="contact-heading-text-div">
